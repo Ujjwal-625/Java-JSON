@@ -51,7 +51,7 @@ public class CSVToJson {
 
     static void WriteJsonFile(List<Map<String,String>> list) throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.enable(SerializationFeature.INDENT_OUTPUT); // Pretty Print JSON
+//        objectMapper.enable(SerializationFeature.INDENT_OUTPUT); // Pretty Print JSON
 
         objectMapper.writeValue(new File("src/SampleData/Sampledata.json"), list);
     }
