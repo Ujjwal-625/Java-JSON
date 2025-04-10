@@ -55,6 +55,12 @@
       <version>2.15.0</version> <!-- Use latest version -->
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
+    <dependency>
+      <groupId>com.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>4.6</version>
+    </dependency>
 
   </dependencies>
 </project>
